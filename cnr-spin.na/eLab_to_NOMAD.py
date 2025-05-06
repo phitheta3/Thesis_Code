@@ -348,7 +348,7 @@ class PLDProcess(FabricationProcessStep, ArchiveSection):
         a_eln={'component': 'StringEditQuantity'}
     )
     
-    target_material = Quantity(                                     # Forse il nome di questo campo dovrebbe essere short_name per adattarsi al vocabolario comune
+    target_material = Quantity(                                     
         type=MEnum(['LAO', 'Titanium', 'Terbium Scandate']),
         description='Select the main target material',
         a_eln={'component': 'EnumEditQuantity'}
