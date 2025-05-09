@@ -56,7 +56,7 @@ and will create one experiment for each `.txt` file found
 2. Then simply run:
 
 ```
-python3 update.py
+python3 Fluent_control_to_elabFTW.ipynb
 ```
 
 
